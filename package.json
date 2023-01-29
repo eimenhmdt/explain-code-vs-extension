@@ -3,6 +3,10 @@
   "publisher": "eimenhmdt",
   "displayName": "Explain Code",
   "description": "Minimalistic extension that uses AI to explain code snippets and code files to you",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eimenhmdt/explain-code-vs-extension"
+},
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
