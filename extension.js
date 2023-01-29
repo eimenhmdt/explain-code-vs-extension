@@ -5,24 +5,6 @@ const vscode = require("vscode");
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 
-function showErrorWithLink() {
-  // create an error message
-  const error = vscode.window.createErrorMessage(
-    'You need to set your OpenAI API key in the extension settings before being able to use the "Explain Code" Extension.'
-  );
-
-  // add a link to the error message
-  error.links = [
-    {
-      title: "Open Extension Settings",
-      url: "command:workbench.action.openSettings",
-    },
-  ];
-
-  // show the error message
-  vscode.window.showErrorMessage(error);
-}
-
 /**
  * @param {vscode.ExtensionContext} context
  */
