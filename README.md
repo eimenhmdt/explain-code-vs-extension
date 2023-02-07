@@ -1,6 +1,6 @@
 # Explain Code VS Extension README
 
-The minimalistic Explain Code extension for Visual Studio Code allows developers to easily understand and explain complex code. Using the OpenAI GPT-3 language model, the extension generates natural language explanations for code snippets and entire files that can be accessed without having to leave the IDE.
+The minimalistic 'Explain Code' extension for Visual Studio Code allows developers to easily understand and explain complex code. Using the OpenAI GPT-3 language model, the extension generates natural language explanations for code snippets and entire files that can be accessed without having to leave the IDE.
 
 Made with ☕ by [Eimen](https://twitter.com/eimenhmdt)
 
@@ -10,7 +10,7 @@ Made with ☕ by [Eimen](https://twitter.com/eimenhmdt)
 - Utilizes the OpenAI GPT-3 language model for accurate and human-like explanations.
 - Easy to use:
   - Explain code snippets: highlight code, right click, click "Explain selected code"
-  - Explain whole file: Click on the "Explain Code" in the bottom right of your IDE
+  - Explain whole file: Click on the "Explain Code" button in the bottom right of your IDE
 
 ## Requirements
 
@@ -24,7 +24,8 @@ The Explain Code extension contributes the following setting:
 
 ## Known Issues
 
-If the OpenAI API key is not set, the extension will not work.
+- If the OpenAI API key is not set, the extension will not work.
+- The function to explain whole files only works for small files, as the OpenAI API has a limit of 4000 tokens (approx. 3000 words) per request.
 
 ## Release Notes
 
