@@ -53,7 +53,7 @@ function activate(context) {
         },
         body: JSON.stringify({
           prompt: `Explain this file to me: ${contents}`,
-          max_tokens: 2500,
+          max_tokens: 3200,
           n: 1,
         }),
       };
@@ -140,7 +140,7 @@ function activate(context) {
               },
               body: JSON.stringify({
                 prompt: `Explain this code to me: ${selectedText}`,
-                max_tokens: 2500,
+                max_tokens: 3200,
                 n: 1,
               }),
             };
