@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/eimenhmdt/explain-code-vs-extension"
-},
+  },
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.74.0"
@@ -42,14 +42,13 @@
     "configuration": {
       "type": "object",
       "properties": {
-          "openaiKey": {
-              "type": "string",
-              "default": "",
-              "description": "OpenAI API Key for Explain Code Extension"
-          }
+        "openaiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API Key for Explain Code Extension"
+        }
       }
-  }
-
+    }
   },
   "scripts": {
     "lint": "eslint .",
@@ -68,6 +67,6 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "request": "^2.88.2"
+    "axios": "^1.7.7"
   }
 }
