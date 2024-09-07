@@ -2,7 +2,7 @@
   "name": "explain-code",
   "publisher": "eimenhmdt",
   "displayName": "Explain Code",
-  "description": "Minimalistic extension that uses AI to explain code snippets and code files to you",
+  "description": "Minimalistic extension that uses AI to explain code snippets and files to you",
   "icon": "icons/cat.png",
   "repository": {
     "type": "git",

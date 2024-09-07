@@ -7,7 +7,7 @@ Made with ☕ by [Eimen](https://twitter.com/eimenhmdt)
 ## Features
 
 - Generates natural language explanations for code snippets and entire files.
-- Utilizes the OpenAI GPT-3 language model for accurate and human-like explanations.
+- Utilizes the OpenAI GPT-4o language model for accurate and human-like explanations.
 - Easy to use:
   - Explain code snippets: highlight code, right click, click "Explain selected code"
   - Explain whole file: Click on the "Explain Code" button in the bottom right of your IDE
@@ -29,9 +29,10 @@ The Explain Code extension contributes the following setting:
 
 ## Release Notes
 
-### 1.0.0
+### 1.1.0
 
-Initial release of the Explain Code Extension
+- Added support for GPT-4o model
+- Use axios instead of request
 
 ## Contributing
 
